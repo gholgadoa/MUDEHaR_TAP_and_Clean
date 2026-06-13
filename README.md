@@ -3,7 +3,7 @@ Python scripts to online_TAP download MUDEHaR data -- Name or Coordinates -- and
 
 # MUDEHaR Data Extraction Utilities
 
-This repository provides a collection of Python scripts to simplify the retrieval and preparation of data from the **MUDEHaR DR1** archive. The goal is to make MUDEHaR light curves easier to access and analyze by automatically downloading data through the TAP service or processing files previously downloaded from the archive website.
+This repository provides a collection of Python scripts to simplify the retrieval and preparation of data from the **MUDEHaR** archive. The goal is to make MUDEHaR light curves easier to access and analyze by automatically downloading data through the TAP service or processing files previously downloaded from the archive website.
 
 The scripts extract only the information typically required for time-series analysis, producing clean CSV files containing:
 
