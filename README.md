@@ -72,3 +72,10 @@ Processes FITS tables downloaded manually from the MUDEHaR archive website.
 The script performs the same operations as `MUD_extract_csv2csv.py`, but starting from a FITS file instead of a CSV file.
 
 **Input:** A MUDEHaR FITS file and a valid `NAME_GOS`.
+
+### Video tutorial
+
+A short video tutorial demonstrating how to use the scripts included in this repository is also provided.
+
+**Note:** the narration begins at **00:15**, so the first 15 seconds contain no audio.
+
