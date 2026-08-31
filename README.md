@@ -51,6 +51,22 @@ The script:
 
 **Input:** `RA`, `DEC`, and search radius.
 
+### `MUD_extract_TAP_RaDecCone_BATCH.py`
+
+Downloads data directly from the MUDEHaR TAP service using a list of sky positions and performs an independent cone search for each coordinate pair.
+
+The script:
+
+* Reads multiple `RA`, `DEC` coordinate pairs from a TXT file.
+* Performs an independent cone search for each sky position.
+* Expands vector-valued columns into one row per exposure.
+* Replaces invalid sentinel values (`99.999` and `9.999`) with `NaN`.
+* Removes rows where both magnitudes are missing.
+* Produces a separate clean CSV file for each `RA`, `DEC` pair.
+
+**Input:** A TXT file containing one `RA`, `DEC` pair per line, plus the search radius.
+
+
 ### `MUD_extract_csv2csv.py`
 
 Processes CSV files downloaded manually from the MUDEHaR archive website.
