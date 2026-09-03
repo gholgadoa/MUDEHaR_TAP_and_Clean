@@ -1,10 +1,10 @@
 """
-MUDEHaR DR1 - Batch Cone Search
+MUDEHaR DR2 - Batch Cone Search
 ================================
 
 This script reads a list of RA/DEC coordinates from a TXT file and
 performs an independent cone search for each coordinate using the
-MUDEHaR DR1 TAP service.
+MUDEHaR DR2 TAP service.
 
 A separate CSV file is generated for EACH pair of coordinates.
 
@@ -59,8 +59,8 @@ INPUT_FILE = "coordinates.txt"
 #
 RADIUS = 0.005
 
-# MUDEHaR DR1 TAP service.
-TAP_URL = "https://archive.cefca.es/catalogues/vo/tap/mudehar-dr1"
+# MUDEHaR DR2 TAP service.
+TAP_URL = "https://archive.cefca.es/catalogues/vo/tap/mudehar-dr2"
 
 
 # =============================================================================
