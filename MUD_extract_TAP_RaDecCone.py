@@ -1,8 +1,8 @@
 """
-MUDEHaR DR1 - Cone Search and Photometry Extraction
+MUDEHaR DR2 - Cone Search and Photometry Extraction
 ====================================================
 
-This script queries the MUDEHaR DR1 TAP service hosted by CEFCA,
+This script queries the MUDEHaR DR2 TAP service hosted by CEFCA,
 performs a cone search around a given sky position, and expands
 the vector columns containing measurements from individual exposures
 into a row-per-exposure format.
@@ -17,8 +17,8 @@ Install the required Python packages with:
 
 References
 ----------
-MUDEHaR DR1 TAP service:
-https://archive.cefca.es/catalogues/vo/tap/mudehar-dr1
+MUDEHaR DR2 TAP service:
+https://archive.cefca.es/catalogues/vo/tap/mudehar-dr2
 
 Notes
 -----
@@ -69,11 +69,11 @@ RADIUS = 0.005
 # TAP SERVICE
 # =============================================================================
 
-# URL of the MUDEHaR DR1 TAP service provided by CEFCA.
+# URL of the MUDEHaR DR2 TAP service provided by CEFCA.
 #
 # TAP (Table Access Protocol) is an IVOA standard that allows
 # astronomical catalogues to be queried using ADQL.
-TAP_URL = "https://archive.cefca.es/catalogues/vo/tap/mudehar-dr1"
+TAP_URL = "https://archive.cefca.es/catalogues/vo/tap/mudehar-dr2"
 
 # Create a PyVO TAPService object.
 # This object is used to send the ADQL query to the remote archive.
