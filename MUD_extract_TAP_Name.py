@@ -13,7 +13,7 @@ NAME_GOS = "Gaia_DR2_423577032022329600"
 
 
 # TAP service URL
-TAP_URL = "https://archive.cefca.es/catalogues/vo/tap/mudehar-dr1"
+TAP_URL = "https://archive.cefca.es/catalogues/vo/tap/mudehar-dr2"
 
 # Connect to the TAP service
 service = pyvo.dal.TAPService(TAP_URL)
